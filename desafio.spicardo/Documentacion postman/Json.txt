@@ -1,0 +1,36 @@
+http://localhost:8080/auth/login
+
+{
+  "username": "admin",
+  "password": "$2a$10$7gDoyXvKbgVdfyIFs9u/ceZGZGcKZzOhK5Vf6d5uwKDJbz6bJvFNS"
+}
+
+--------
+
+http://localhost:8080/api/tareas
+
+--------
+
+http://localhost:8080/api/tareas
+
+{
+  "titulo": "Tarea ejemplo",
+  "descripcion": "Descripción de prueba",
+  "usuarioId": 1,
+  "estadoId": 2
+}
+
+--------
+
+http://localhost:8080/api/tareas/1
+
+{
+  "nombre": "Nueva tarea",
+  "descripcion": "Descripción de la tarea",
+  "estado": "Pendiente"
+}
+
+---------
+
+http://localhost:8080/api/tareas/2
+
